@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous"></script>    
+    <link rel="stylesheet" href="Login.css">
+    <title>Login</title>
+</head>
+<body>
+  <!-- Usando BOOTSTRAP nas imagens-->
+    <div class="main-login">
+        <div class="left-login">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <h1>Dando um UP! na sua vida financeira.</h1>
+                    <img src="../img/img1.svg" class="left-img1" alt="Voando nas economias">
+                  </div>
+                  <div class="carousel-item">
+                    <h2>Administrando suas despesas a todo momento!</h2>
+                    <img src="../img/img2.svg" class="left-img2" alt="Guardando dinheiro">
+                  </div>
+                  <div class="carousel-item">
+                    <h3>Adiministrando seus lucros no dia a dia.</h3>
+                    <img src="../img/img3.svg" class="left-img3" alt="Consultando suas contas">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>                      
+        </div>
+        <!-- fazendo formulario de login-->
+        <div class="right-login">
+            <div class="card-login">             
+                <h2>Login</h2>
+                <div class="textfield">
+                    <label for="usuario">Email</label>
+                    <input type="email" name="usuario" placeholder="Email">
+                    <div class="uderline"></div>
+                </div>
+                <div class="textfield">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" placeholder="Senha">
+                    <div class="uderline"></div>
+                </div>
+                <button type="button" class="btn-login">Login</button>
+                 <div class="footer">
+                  <!-- Criando botão para ir para tela de cadastro-->
+                  <div>
+                    <button type="button" class="btn-cadastro"><a href="../cadastro/cadastro.html">Cadastre-se</a></button>
+                  </div>
+                  <!-- logins em outras redes com link-->
+                <span>Logins em outras redes</span>
+                <div class="social-field google">
+                  <a target="_blank" href="https://accounts.google.com/o/oauth2/v2/auth/oauthchooseaccount?client_id=532352704633-6pkces9iboppp465idnovkcqtlsa8j7t.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fwww.figma.com%2Ffinish_google_sso&response_type=code&scope=profile%20email&access_type=online&prompt=select_account&state=1gAdd9JwLbtWoH3PCzrTjRudOOoXS%2B9JqYTpNWmNUJeA&flowName=GeneralOAuthFlow">
+                    <i class="fab fa-google"></i>
+                    Entrar via google
+                  </a>
+                </div>
+                <div class=" social-field facebook">
+                  <a target="_blank" href="https://pt-br.facebook.com/login/device-based/regular/login/">
+                    <i class="fab fa-facebook-f"></i>
+                    Entrar via facebook
+                  </a>
+                </div> 
+            </div>
+        </div>                
+    </div>    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</html>
